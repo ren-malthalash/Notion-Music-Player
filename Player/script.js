@@ -30,26 +30,29 @@ $(function () {
     buffInterval = null,
     tFlag = false,
     albums = [
-      "Transformers One",
-      "Music Box",
-      "Electro Boy",
-      "Home",
-      "Proxy (Original Mix)"
+      "Resting Place of the Primes",
+      "Cute Na Kanojo",
+      "Cute Na Kanojo",
+      "The Mind Electric",
+      "Inferno Descent",
+      "Falling Through the Stars"
     ],
     trackNames = [
-      "Resting Place of the Primes - Transformers One",
-      "Cute Na Kanojo - Music Box",
-      "Kaaze - Electro Boy",
-      "Jordan Schor - Home",
-      "Martin Garrix - Proxy"
+      "Transformers One",
+      "Music Box",
+      "Will Stetson",
+      "Chonny Jash",
+      "Original",
+      "Original"
     ],
-    albumArtworks = ["_1", "_2", "_3", "_4", "_5"],
+    albumArtworks = ["_1", "_2", "_3", "_4", "_5", "_6"],
     trackUrl = [
       "https://ren-malthalash.github.io/Notion-Music-Player/Resting_Place_of_the_Primes.mp3",
       "https://ren-malthalash.github.io/Notion-Music-Player/Cute_Na_Kanojo_mb.mp3",
-      "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/3.mp3",
-      "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/4.mp3",
-      "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/5.mp3"
+      "https://ren-malthalash.github.io/Notion-Music-Player/Cute_Na_Kanojo_ws.mp3",
+      "https://ren-malthalash.github.io/Notion-Music-Player/The_Mind_Electric.mp3",
+      "https://ren-malthalash.github.io/Notion-Music-Player/Inferno_Descent.mp3",
+      "https://ren-malthalash.github.io/Notion-Music-Player/Falling_Through_the_Stars.mp3"
     ],
     playPreviousTrackButton = $("#play-previous"),
     playNextTrackButton = $("#play-next"),

@@ -5,7 +5,7 @@
 body {
   font-family: Helvetica, Arial;
   margin: 0;
-  background-color: #ffeff5;
+  background-color: #8eb1fc;
 }
 
 #app-cover {
@@ -39,7 +39,7 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #fff;
+  background-color: #8eb1fcae;
   opacity: 0.51;
   z-index: 2;
 }
@@ -56,7 +56,7 @@ body {
   right: 15px;
   left: 15px;
   padding: 13px 22px 10px 184px;
-  background-color: #fff7f7;
+  background-color: #7496e1;
   border-radius: 15px 15px 0 0;
   transition: 0.3s ease top;
   z-index: 1;
@@ -67,13 +67,13 @@ body {
 }
 
 #album-name {
-  color: #54576f;
+  color: #ffffff;
   font-size: 17px;
   font-weight: bold;
 }
 
 #track-name {
-  color: #acaebd;
+  color: #cbd1ff;
   font-size: 13px;
   margin: 2px 0 13px 0;
 }
@@ -103,7 +103,7 @@ body {
 
 #track-time.active #current-time,
 #track-time.active #track-length {
-  color: #f86d92;
+  color: #bed8ff;
   background-color: transparent;
 }
 
@@ -115,7 +115,7 @@ body {
 }
 
 #s-area {
-  background-color: #ffe8ee;
+  background-color: #e8f9ff;
   cursor: pointer;
 }
 
@@ -151,7 +151,7 @@ body {
   bottom: 0;
   left: 0;
   width: 0;
-  background-color: #fd6d94;
+  background-image: linear-gradient(to right, #0758af, #c0e8ff);
   transition: 0.2s ease width;
   z-index: 1;
 }
@@ -159,7 +159,7 @@ body {
 #player-content {
   position: relative;
   height: 100%;
-  background-color: #fff;
+  background-color: #e8f4ff;
   box-shadow: 0 30px 80px #656565;
   border-radius: 15px;
   z-index: 2;
@@ -173,14 +173,14 @@ body {
   margin-left: 40px;
   transform: rotateZ(0);
   transition: 0.3s ease all;
-  box-shadow: 0 0 0 10px #fff;
+  box-shadow: 0 0 0 10px #e8f4ff;
   border-radius: 50%;
   overflow: hidden;
 }
 
 #album-art.active {
   top: -60px;
-  box-shadow: 0 0 0 4px #fff7f7, 0 30px 50px -15px #afb7c1;
+  box-shadow: 0 0 0 4px #4c77c1, 0 30px 50px -15px #afb7c1;
 }
 
 #album-art:before {
