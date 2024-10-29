@@ -30,7 +30,7 @@ $(function () {
     buffInterval = null,
     tFlag = false,
     albums = [
-      "Resting Place of the Primes",
+      "Tomb of the Primes",
       "Cute Na Kanojo",
       "Cute Na Kanojo",
       "The Mind Electric",
