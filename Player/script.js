@@ -31,14 +31,14 @@ $(function () {
     tFlag = false,
     albums = [
       "Transformers One",
-      "Me & You",
+      "Music Box",
       "Electro Boy",
       "Home",
       "Proxy (Original Mix)"
     ],
     trackNames = [
       "Resting Place of the Primes - Transformers One",
-      "Alex Skrindo - Me & You",
+      "Cute Na Kanojo - Music Box",
       "Kaaze - Electro Boy",
       "Jordan Schor - Home",
       "Martin Garrix - Proxy"
@@ -46,7 +46,7 @@ $(function () {
     albumArtworks = ["_1", "_2", "_3", "_4", "_5"],
     trackUrl = [
       "https://ren-malthalash.github.io/Notion-Music-Player/Resting_Place_of_the_Primes.mp3",
-      "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/1.mp3",
+      "https://ren-malthalash.github.io/Notion-Music-Player/Cute_Na_Kanojo_mb.mp3",
       "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/3.mp3",
       "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/4.mp3",
       "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/5.mp3"
