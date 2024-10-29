@@ -30,14 +30,14 @@ $(function () {
     buffInterval = null,
     tFlag = false,
     albums = [
-      "Dawn",
+      "Transformers One",
       "Me & You",
       "Electro Boy",
       "Home",
       "Proxy (Original Mix)"
     ],
     trackNames = [
-      "Skylike - Dawn",
+      "Resting Place of the Primes - Transformers One",
       "Alex Skrindo - Me & You",
       "Kaaze - Electro Boy",
       "Jordan Schor - Home",
