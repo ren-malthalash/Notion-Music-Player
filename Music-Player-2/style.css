@@ -46,6 +46,7 @@ body {
 
 #player {
   position: relative;
+  scale: 0.5;
   height: 100%;
   z-index: 3;
 }
@@ -173,7 +174,7 @@ body {
   margin-left: 40px;
   transform: rotateZ(0);
   transition: 0.3s ease all;
-  box-shadow: 0 0 0 10px #e8f4ff;
+  box-shadow: 0 0 0 10px #f7e8ff;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -301,7 +302,7 @@ body {
 
 .button i {
   display: block;
-  color: #d6dee7;
+  color: #e4d6e7;
   font-size: 26px;
   text-align: center;
   line-height: 1;
@@ -313,7 +314,7 @@ body {
 }
 
 .button:hover {
-  background-color: #d6d6de;
+  background-color: #ddd6de;
 }
 
 .button:hover i {
