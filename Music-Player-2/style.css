@@ -10,6 +10,7 @@ body {
 
 #app-cover {
   position: absolute;
+  scale: 0.5;
   top: 50%;
   right: 0;
   left: 0;
@@ -20,6 +21,7 @@ body {
 
 #bg-artwork {
   position: fixed;
+  scale: 4;
   top: -30px;
   right: -30px;
   bottom: -30px;
@@ -46,7 +48,6 @@ body {
 
 #player {
   position: relative;
-  scale: 0.5;
   height: 100%;
   z-index: 3;
 }
